@@ -2,11 +2,11 @@
 
 // button matrix
 const int matrix_size = 5;
-int button_matrix[matrix_size][matrix_size] = {{1, 2, 3, 4, 5},
-                                               {6, 7, 8, 9, 10},
-                                               {11,12,13,14,15},
-                                               {16,17,18,19,20},
-                                               {21,22,23,24,25}};
+int button_matrix[matrix_size][matrix_size] = {{0, 1, 2, 3, 4},
+                                               {5, 6, 7, 8, 9},
+                                               {10,11,12,13,14},
+                                               {15,16,17,18,19},
+                                               {20,21,22,23,24}};
                                                
 /*int button_matrix_state[matrix_size][matrix_size] = {{0,0,0,0,0},
                                                      {0,0,0,0,0},
